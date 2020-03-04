@@ -1,3 +1,5 @@
+package model;
+
 public class Queue {
     public class Node {
         private Node next;
