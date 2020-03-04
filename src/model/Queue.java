@@ -17,7 +17,7 @@ public class Queue {
         return head == null;
     }
 
-    public int peak() {
+    public int peek() {
         return this.head.data;
     }
 

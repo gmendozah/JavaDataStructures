@@ -16,7 +16,7 @@ public class Stack {
         return top == null;
     }
 
-    public int peak() {
+    public int peek() {
         return this.top.data;
     }
 
