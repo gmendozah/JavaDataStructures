@@ -10,8 +10,8 @@ public class Queue {
         }
     }
 
-    private Node head;
-    private Node tail;
+    private Node head; // remove here
+    private Node tail; // add here
 
     public boolean isEmpty() {
         return head == null;
