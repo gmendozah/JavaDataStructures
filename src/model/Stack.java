@@ -26,7 +26,7 @@ public class Stack {
         top = node;
     }
 
-    public int push() {
+    public int pop() {
         int data = top.data;
         top = top.next;
         return data;
