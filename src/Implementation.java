@@ -1,14 +1,27 @@
 import model.Queue;
 import model.Stack;
+import model.Tree;
 
 public class Implementation {
 
     private static Queue q;
     private static Stack s;
+    private static Tree t;
 
-    public static void main(String ...args){
+    public static void main(String... args) {
         //testQueue();
-        testStack();
+        //testStack();
+        testTrees();
+    }
+
+    static void testTrees() {
+        t = new Tree(1);
+        t.insert(2);
+        t.insert(3);
+        t.insert(4);
+        t.insert(5);
+        t.insert(6);
+        t.printInOrder();
     }
 
     static void testQueue() { // First In First Out
